@@ -1077,74 +1077,280 @@ footer .footer-info ul ul {
 
 /*--------------------------SITE CSS---------------------------*/
 /* FULL PAGE */
+#section1 .fp-tableCell,
+#section2 .fp-tableCell,
+#section3 .fp-tableCell {
+    display: block;
+}
 .content{
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
     text-align: center;
 }
     /* Section 1
              * --------------------------------------- */
     #section0 {
-        background: url("https://fernneil10.github.io/fernneilcaranay/images/slide1.jpg ") no-repeat center center fixed;
+        background: url("https://fernneil10.github.io/fernneilcaranay/images/slidenew3.jpg") no-repeat right center fixed;
         background-size: cover;
     }
         #section0 .tagline h1 {
             position: relative;
             text-align: left;
             color:#ffffff;
-            letter-spacing: 10px;
+            letter-spacing: 8px;
             text-transform: uppercase;
-            font: 900 80px/80px 'Libre Franklin', sans-serif;
+            font: 900 75px/80px 'Libre Franklin', sans-serif;
         }
+            #section0 .tagline h1 span {
+                display: block;
+                color: #ffffff;
+            }
             #section0 .tagline h2 {
                 color: #ffffff;
                 text-transform: uppercase;
                 font: 400 21px 'Arimo', sans-serif;
             }
 
+        #section0 .main-logo {
+            position: relative;
+            display: block;
+        }
+            #section0 .main-logo img {
+                width: 100%;
+                max-width: 500px;
+            }
+
 
     /* Section 2
      * --------------------------------------- */
-    #section1{
-        background: url("https://fernneil10.github.io/fernneilcaranay/images/profile.jpg") no-repeat top center fixed;
+    #section1 {
+        background: url("https://fernneil10.github.io/fernneilcaranay/images/profile-bg2.jpg") no-repeat top left fixed;
         background-size: cover;
     }
-    #section1 h1{
-        color: #fff;
-    }
-    #section1 p{
-        opacity: 0.8;
-    }
+        #section1 .section-title {
+            text-align: left;
+            padding-top: 28px;
+        }
+            #section1 .section-title h2{
+                position: relative;
+                color: #080808;
+                text-transform: uppercase;
+                font: 900 42px 'Libre Franklin', sans-serif;
+            }
+            
+        .section1-content-wrap {
+            position: relative;
+            display: block;
+            padding: 15px 0 0;
+            text-align: left;
+        }
+            .section-sub-txt {
+                color: #3d3935;
+                font: 400 16px/21px 'Arimo', sans-serif;
+            }
+            .section1-contact-info {
+                position: relative;
+                display: block;
+                padding: 30px 0 0;
+            }
+                .profile-icon {
+                    display: block;
+                    position: relative;
+                    background: url("https://fernneil10.github.io/fernneilcaranay/images/icon-profile.png") no-repeat;
+                    width: 45px;
+                    height: 45px;
+                }
+                .contacts-icon {
+                    content: '';
+                    display: block;
+                    position: relative;
+                    background: url("https://fernneil10.github.io/fernneilcaranay/images/icon-contacts.png") no-repeat;
+                    width: 45px;
+                    height: 45px;
+                }
+                    .profile-section, .contacts-section {
+                        position: relative;
+                        display: block;
+                        margin-left: 22px;
+                    }
 
+                        .section1-info-details {
+                            display: block;
+                            color: #080808;
+                            margin: 15px 0;
+                            min-height: 63px;
+                            font: italic 18px 'Arimo', sans-serif;
+                        }
+                            .section1-info-details a {
+                                color: #080808;
+                            }
+                            .section1-info-details b {
+                                display: block;
+                                color: #00b6ad;
+                                text-transform: uppercase;
+                                font: 600 18px 'Libre Franklin', sans-serif;
+                            }
+                            .section1-info-details a:hover {
+                                color: #00b6ad;
+                            }
+
+                        .signature {
+                            display: block;
+                            color: #080808;
+                            margin-top: 40px;
+                            font: normal 45px 'Herr Von Muellerhoff', cursive;
+                        }
+                        .download-cv {
+                            position: relative;
+                            display: block;
+                            margin-top: 60px;
+                        }
+                            .download-cv a {
+                                position: relative;
+                                width: 140px;
+                                padding: 12px;
+                                outline: none;
+                                text-decoration: none;
+                                box-sizing: border-box;
+                                color: #ffffff;
+                                background: #555555;
+                                letter-spacing: 1px;
+                                text-transform: uppercase;
+                                font: 400 14px 'Libre Franklin', sans-serif;
+                                -webkit-transition: all 0.3s ease-in-out;
+                                -moz-transition: all 0.3s ease-in-out;
+                                -ms-transition: all 0.3s ease-in-out;
+                                -o-transition: all 0.3s ease-in-out;
+                                transition: all 0.3s ease-in-out;
+                            }
+                                .download-cv a:hover {
+                                    background: #00b6ad;
+                                }
 
     /* Section 3
      * --------------------------------------- */
-    #section2{
-        background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg4.jpg);
+    #section2 {
+        background: url("https://fernneil10.github.io/fernneilcaranay/images/skills-bg.jpg") no-repeat top left fixed;
         background-size: cover;
-        background-attachment: fixed;
     }
-    #section2 h1{
-        color: #F2F2F2;
-    }
-    #section2 p{
-        opacity: 0.6;
-    }
+        #section2 .section-title {
+            text-align: center;
+            padding-top: 30px;
+        }
+            #section2 .section-title h2 {
+                position: relative;
+                color: #ffffff;
+                text-transform: uppercase;
+                text-shadow: 1px 2px 5px #000000;
+                font: 900 42px 'Libre Franklin', sans-serif;
+            }
+
+        .skills-btn-wrap {
+            position: relative;
+            display: block;
+            margin-top: calc(32% - 258px);
+            text-align: center;
+        }
+            .skills-btn-wrap a {
+                position: relative;
+                outline: none;
+                text-decoration: none;
+            }
+                .skills-btn-holder {
+                    position: relative;
+                    display: inline-block;
+                    vertical-align: top;
+                    margin: 0 10px;
+                }
+                    .skills-btn-holder img {
+                        width: 100%;
+                        max-width: 200px;
+                    }
+                    .skills-btn-holder span {
+                        display: block;
+                        color: #ffffff;
+                        margin-top: 10px;
+                        text-transform: uppercase;
+                        text-shadow: 1px 2px 5px #000000;
+                        font: 900 18px 'Libre Franklin', sans-serif;
+                        -webkit-transition: all 0.3s ease-in-out;
+                        -moz-transition: all 0.3s ease-in-out;
+                        -ms-transition: all 0.3s ease-in-out;
+                        -o-transition: all 0.3s ease-in-out;
+                        transition: all 0.3s ease-in-out;
+                    }
+
+        .skill-view-more {
+            position: relative;
+            display: block;
+            text-align: center;
+            margin-top: 40px;
+        }
+            .skill-view-more a {
+                position: relative;
+                display: block;
+                outline: none;
+                text-decoration: none;
+                box-sizing: border-box;
+                width: 150px;
+                height: 100%;
+                border: 1px solid #ffffff;
+                padding: 15px 0;
+                margin: 0 auto;
+                color: #ffffff;
+                letter-spacing: 2px;
+                background: transparent;
+                text-transform: uppercase;
+                font: 400 16px 'Arimo', sans-serif;
+                -webkit-transition: all 0.3s ease-in-out;
+                -moz-transition: all 0.3s ease-in-out;
+                -ms-transition: all 0.3s ease-in-out;
+                -o-transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+            }
+
+            /* HOVER */
+            .skills-btn-wrap a:hover span {
+                color: #8c8c8c;
+            }
+            .skill-view-more a:hover {
+                background: rgba(0,182,173,0.80);
+                border: 1px solid rgba(0,182,173,0.80);
+            }
+
+
 
     /* Section 4
      * --------------------------------------- */
     #section3{
-        background-image: url(https://raw.githubusercontent.com/alvarotrigo/fullPage.js/master/examples/imgs/bg5.jpg);
+        background: url("https://fernneil10.github.io/fernneilcaranay/images/portfolio-bg.jpg") no-repeat center fixed;
         background-size: cover;
-        background-attachment: fixed;
     }
-    #section3 h1{
-        color: #F2F2F2;
-    }
-    #section3 p{
-        opacity: 0.6;
-    }
+        #section3 .section-title {
+            text-align: center;
+            padding-top: 30px;
+        }
+            #section3 .section-title h2 {
+                position: relative;
+                color: #080808;
+                text-transform: uppercase;
+                text-shadow: 1px 2px 5px #000000;
+                font: 900 42px 'Libre Franklin', sans-serif;
+            }
+
+        /* FLIPSTER */
+        .flipster .flip-item {
+            transition:0.4s all!important;
+        }
+        .flipster .flip-past,
+        .flipster .flip-future {
+            opacity:0!important;
+        }
+        .coverflow {
+            position: relative;
+            display: block;
+            padding-top: 44px;
+        }
+
 
     /* Section 4
      * --------------------------------------- */
@@ -1172,8 +1378,8 @@ footer .footer-info ul ul {
     .burger-menu {
         position: absolute;
         cursor: pointer;
-        top: 38px;
-        left: 30px;
+        top: 9px;
+        left: 15px;
         z-index: 5;
     }
         .bar1, .bar2, .bar3 {
@@ -1194,7 +1400,7 @@ footer .footer-info ul ul {
             -ms-transform: rotate(-45deg) translate(-7px, 6px);
             -o-transform: rotate(-45deg) translate(-7px, 6px);
             transform: rotate(-45deg) translate(-7px, 6px);
-            background: #4BB989;
+            background: #00b6ad;
         }
 
         .change .bar2 {opacity: 0;}
@@ -1205,7 +1411,7 @@ footer .footer-info ul ul {
             -ms-transform: rotate(45deg) translate(-7px, -7px);
             -o-transform: rotate(45deg) translate(-7px, -7px);
             transform: rotate(45deg) translate(-7px, -7px);
-            background: #4BB989;
+            background: #00b6ad;
         }
 
     .header-fix-menu {
@@ -1303,8 +1509,11 @@ footer .footer-info ul ul {
                 transition: all 0.3s ease-in-out;
             }
                 #site-navigation ul > li > a:hover {
-                    color: #4BB989;
+                    color: #00b6ad;
                 }
+
+
+
                 
                 
 
