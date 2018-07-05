@@ -712,8 +712,8 @@ body {
                                 position: relative;
                                 width: 140px;
                                 padding: 12px;
-                                outline: none;
-                                text-decoration: none;
+                                outline: none !important;
+                                text-decoration: none !important;
                                 box-sizing: border-box;
                                 color: #ffffff;
                                 background: #555555;
@@ -756,8 +756,8 @@ body {
         }
             .skills-btn-wrap a {
                 position: relative;
-                outline: none;
-                text-decoration: none;
+                outline: none !important;
+                text-decoration: none !important;
             }
                 .skills-btn-holder {
                     position: relative;
@@ -793,8 +793,8 @@ body {
             .skill-view-more a {
                 position: relative;
                 display: block;
-                outline: none;
-                text-decoration: none;
+                outline: none !important;
+                text-decoration: none !important;
                 box-sizing: border-box;
                 width: 150px;
                 height: 100%;
