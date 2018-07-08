@@ -99,3 +99,7 @@ jQuery(window).resize(function(){
 
  });
 
+function myFunction(x) {
+     x.classList.toggle("change");
+ }
+
