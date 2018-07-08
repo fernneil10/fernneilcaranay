@@ -135,11 +135,8 @@ $(window).resize(function(){
   });
 
      jQuery('.burger-menu').click(function() {
+         jQuery('.burger-menu').toggleClass('change');
          jQuery('.header-fix-menu').toggleClass('open-menu');
      });
 
  });
-
- function myFunction(x) {
-     x.classList.toggle("change");
- }
